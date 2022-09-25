@@ -1,0 +1,115 @@
+/* CSS styling for the 4 pages for the App Academy Capstone on Intermediate CSS and HTML*/
+
+body, 
+html{
+/* Container Box */
+
+width: 1000px;
+height: 800px;
+margin-left: auto;
+margin-top: 0px;
+margin-right: auto;
+padding: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+
+background: #FFFFFF;
+
+background-image: url(/Users/pm/aa-projects/aa-html-css-capstone-project/stylized-mountain.png);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+nav{
+
+/* Nav Bar Container */
+display: flex;
+width: 950px;
+height: 94px;
+margin-left: auto;
+margin-top: 20px;
+margin-right: auto;
+justify-content: space-around;
+align-items: center;
+
+background: #E1F1FB;
+border-radius: 20px;
+}
+
+
+    /* H1 Header - Page 1 */
+h1{
+display: flex;
+width: 900px;
+margin-left: 30px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 55px;
+align-items: flex-start;
+
+color: #000000;
+
+}
+
+h2{
+    margin-left: 30px;
+}
+
+p{
+width: 900px;
+height: auto;
+margin: auto;
+margin-left: 30px;
+margin-top: 5px; 
+margin-bottom: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color:#000000;
+    
+}
+a:link {
+    color: #000000;
+
+}
+
+a:hover{ 
+    color: red;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+} 
+.picture-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    column-gap: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+li {
+    list-style: none;
+}
+
+fieldset {
+    border: none;
+}
+
+#mod__link--brand {
+color: darkblue;
+
+
+}
